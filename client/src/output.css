@@ -4806,6 +4806,11 @@ input[type="range"]::-ms-fill-lower {
   background-color: rgb(99 49 18 / var(--tw-bg-opacity));
 }
 
+.dark\:bg-\[rgb\(16\2c 23\2c 42\)\]:is(.dark *) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(16 23 42 / var(--tw-bg-opacity));
+}
+
 .dark\:bg-opacity-80:is(.dark *) {
   --tw-bg-opacity: 0.8;
 }
